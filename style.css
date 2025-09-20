@@ -2,6 +2,14 @@
     font-family: 'CommaTrial';
     src: url('CommaTrial.ttf') format('truetype');
 }
+a {
+    text-decoration: none;
+    
+}
+a:hover {
+      color: rgb(238, 178, 13);
+
+}
 img {
     width: 350px;
     height: 350px;
@@ -120,4 +128,5 @@ span {
 h2 {
     font-family: 'CommaTrial';
     font-size:80px;
+
 }
