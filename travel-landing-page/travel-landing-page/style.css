@@ -1,0 +1,51 @@
+header {
+    background-image: url("image.jpg");
+    /*The image is contained through thiss*/
+    background-size: contain;
+    border-radius:50px;
+    width:100%;
+    height:800px;
+}
+h1,h2 {
+    margin:40px;
+    font-family:Bahnschrift;
+    color:white;
+}
+
+}
+a[href="index.html"]{
+    font-family:'Sans Serif Collection';
+    background-color:white;
+    padding:0px;
+    border-radius:35px;
+    color:black;
+    margin:40px;
+}
+a[href*='index']{
+    font-family: 'Sans Serif Collection';
+    background-color: white;
+    padding: 0px;
+    border-radius: 35px;
+    color: black;
+    margin: 40px;
+    font-size: 30px;
+    color: black;
+    padding:20px;
+    text-decoration:none;
+}
+/*Solved: The issue was attaching display properties to parent or the child of the element needing changed*/
+li {
+    display:inline-block;
+}
+li a {
+    text-decoration: none;
+    padding:10px;
+    background-color:azure;
+    border-radius:10px;
+    color:blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a:hover{
+    background-color:aqua;
+    color:darkblue;
+}
