@@ -1,0 +1,139 @@
+/*generic rulesets*/
+
+nav {
+   text-align:center;
+   display:inline-block;
+}
+nav ul li{
+    display:inline-block;
+    padding: 30px 43px;
+    overflow:hidden;
+    
+}
+nav ul li:hover{
+
+    text-decoration:underline;
+    text-decoration-thickness: 3px;
+}
+.current {
+    text-decoration:underline;
+    text-decoration-thickness: 5px;
+    color:#000000;
+}
+h6 {
+    margin:0;
+}
+footer{
+    background-color:grey;
+    padding:40px;
+
+}
+header{
+    background-color:lightgoldenrodyellow;
+    margin:0;
+    position:sticky;
+    top:0;
+    height:120px;
+}
+header img{
+    width:200px;
+    margin:20px 20px;
+    
+}
+header a {
+    font-family:"IBM Plex Sans";
+    font-size:30px;
+    font-style:oblique;
+    text-decoration:none;
+    color:#000000a1;
+}
+header nav {
+    position: fixed;
+    left: 70vh;
+    top:0;
+    margin:0;
+    padding:0;
+}
+body {
+    padding:0;
+    margin: 0;
+    background-image: url('./northwest/in.jpg');
+    background-color:rgba(100,100,255,.8);
+    background-attachment: fixed;
+}
+
+/*home rulesets*/
+#home{
+}
+.box{
+    background-color:rgba(0,0,0,.5);
+    height:70vh;
+    width: 150vh;
+    margin:5px auto;
+}
+.box:hover{
+    background-color:#000000af;
+}
+.box h3{
+    background-color:rosybrown;
+    color:black;
+    text-decoration: none;
+    margin:0 auto;
+    width:800px;
+    height:50px;
+    border-radius: 0 0 50px 50px;
+
+}
+.box img{
+    height:500px;
+    width:400px;
+    margin: 0 0px;
+}
+#information{
+   margin: 80px;
+   text-align:center;
+}
+/*about rulesets*/
+#jerry {
+    width:40vh;
+    height:inherit;
+}
+#about figure {
+    background-color:white;
+    width: 100vh;
+    margin: 0 auto;
+    height:55vh;
+    display:flex;
+}
+#about .frame {
+    margin: 10px auto;
+    width:60vh;
+}
+#about .fbox{
+    width:100px;
+}
+#about figcaption{
+
+}
+#about h2,#about p{
+   width:60vh;
+   margin:10px 4px;
+   text-align:center;
+}
+/*contact rulesets*/
+#contact{
+}
+.contact {
+    text-align:center;
+}
+.contact h3{
+    margin:0;
+    font-size: 2vh;
+}
+.contact img{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    margin-top:10vh;
+    border:1px solid black;
+}

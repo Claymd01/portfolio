@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="favicon3.png" type="image/x-icon">
+    <title>Reiff Enterprises LLC</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap" rel="stylesheet">
+</head>
+    <body id="home">
+        <header>
+            <img src="favicon2.png" />
+            <nav>
+                <ul>
+                    <li><a class="current">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <main>
+            <h2>Reiff Enterprises LLC</h2>
+            <script src="./handlebars.js"></script>
+            <script id="templateHB" type="text/x-handlebars-template">
+                {{#each rentals}}
+                <a href="{{this.link}}">
+                    <div class="box">
+                        <h3>{{this.name}}</h3>
+                        <br />
+                        <img src={{this.inside}} />
+                        <img src={{this.outside}} />
+                        <p>{{this.description}}</p>
+                    </div>
+                </a>
+                {{/each}}
+            </script>
+            <section class="container" id="information">
+
+            </section>
+        </main>
+        <footer>
+            <h6>9/3/2025</h6>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>
