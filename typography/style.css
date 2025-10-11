@@ -1,0 +1,101 @@
+/*import a font locally using this method(or online using stylesheet links)*/
+@font-face {
+    font-family: 'GlegooBanner';
+    src: url('../fonts/Glegoo-Regular.woff2') format('woff2'),
+        url('../fonts/Glegoo-Regular.woff') format('woff'),
+        url('../fonts/Glegoo-Regular.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Playwrite';
+    src: url('./Playwrite.ttf');
+}
+th {
+    border: 5px solid cyan;
+    padding: 20px;
+    border-radius:5px;
+    margin: 10px;
+}
+
+/*Fallback Fonts!*/
+
+
+h1 {
+    font-family: Caslon, Georgia, 'Times New Roman', serif;
+    margin: 0 auto;
+    width:380px;
+    height:20px;
+    padding:30px 50px 50px 50px;
+    border:6px outset #ff0000;
+    border-radius: 0px 0 25px 25px;
+    background-color:hsl(183,50%,50%);
+    font-style: normal;
+    color: rgba(15,15,15,0.5);
+
+
+}
+
+/*Font Weights*/
+.left-section {
+    font-weight: 700;
+}
+
+/*italics*/
+.right-section {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/*label of table*/
+#toptable {
+    font-family:Playwrite;
+    letter-spacing: 1em;
+    word-spacing: .5em;
+}
+table {
+    width:900px;
+    height:500px;
+}
+
+/*uppercase*/
+table th:nth-child(1), table td:nth-child(1) {
+    text-transform: uppercase;
+}
+table th:nth-child(2), table td:nth-child(2) {
+    font-weight: 900;
+}
+/*letter spacing*/
+table th:nth-child(3), table td:nth-child(3) {
+    letter-spacing: 2px;
+}
+/*word spacing*/
+table th:nth-child(4), table td:nth-child(4) {
+    word-spacing: 0.3em;
+}
+
+/*Line Height*/
+table th:nth-child(5), table td:nth-child(5) {
+    line-height: 1.4;
+}
+
+/*Text Alight*/
+table th:nth-child(6), table td:nth-child(6) {
+    text-align: right;
+}
+
+/*Google Font*/
+table th:nth-child(7), table td:nth-child(7) {
+    font-family: Roboto;
+}
+
+table th:nth-child(8), table td:nth-child(8) {
+    font-style: italic;
+}
+span {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row1 td {
+    font-family:Wingdings;
+}
