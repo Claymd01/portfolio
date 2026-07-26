@@ -6,7 +6,7 @@
 //									//
 //////////////////////////////////////////////////////////////////////////
 
-This is my read me file, read all you want but its really kinda boring.txt
+This is my read me file, but you can just call this my read me file.
 
 **The pages on the sections are:
 .not separate
